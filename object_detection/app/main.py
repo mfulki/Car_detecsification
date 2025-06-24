@@ -21,7 +21,7 @@ def main():
 
     trainer.validate()
     trainer.export()
-    trainer.close_logs()
+    # trainer.close_logs()
     
 if __name__ == "__main__":
     main()
